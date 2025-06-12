@@ -1,2 +1,13 @@
 Possible timing errors when there are overlapping blocks
 	(See CH_2021-09-27_BT_01_Suruhana,Surunahu_e.eaf -- around 5:40-5:55 (fanena example) ... additional blocks from "pes ayu na un fanestudia" added to the fanena line
+
+
+introductory screen should allow you to put in information about the file
+(try to get from transcript)
+and select assignment to grammatical levels
+
+In the viewer, should color the different preview tiers
+Might also be good to try and have a loading indicator while loading (although I think I tried this and it wouldn't work for some reason)
+
+
+Integrate with the diksionariu edit backend

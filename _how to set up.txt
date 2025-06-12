@@ -1,3 +1,4 @@
 mp3's must be constant bitrate (NO VBR!!)
 
 ELAN file should be exported WITH any offsets
+(not sure this still applies -- gets offset in script now, but might still need to be defined by ELAN)

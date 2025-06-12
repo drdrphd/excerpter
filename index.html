@@ -12,7 +12,7 @@
 	<link rel="icon"             href="../site-icon.png" />
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" type="text/css" href="converter_v003.css">
+	<link rel="stylesheet" type="text/css" href="converter_v004b.css">
 	<link rel="stylesheet" type="text/css" href="transcript_v3.css">
 	
 </head>
@@ -38,30 +38,34 @@
 					<div id="preview-tiers"></div>
 				</fieldset>
 				
-				<fieldset id="preview-box">
-					<legend>Preview</legend>
-					<div id="preview">
-					</div>
-				</fieldset>
+				<div id="preview-box-container">
+					<button id="clear-selection" title="Clear Selection">🚫</button>
+					<fieldset id="preview-box">
+						<legend>Preview</legend>
+						<div id="preview">
+						</div>
+					</fieldset>
+				</div>
 				
 				<fieldset id="export-tiers-box">
 					<legend>Select Tiers to Export</legend>
 					<div id="export-tiers"></div>
 				</fieldset>
 				
-				<fieldset id="output-box">
-					<legend>Output</legend>
+				<div id="output-box-container">
 					<button id="toggle-links" title="Toggle links">🔗|X</button>
-					<div id="transcript">
-					</div>
-				</fieldset>
+					<fieldset id="output-box">
+						<legend>Output</legend>
+						<div id="transcript">
+						</div>
+					</fieldset>
+				</div>
 				
 				<fieldset id="export-box">
 					<legend>Export</legend>
 					<div id="export-content">
 						<span><b>Start(ms): </b><span id="export-start-time"></span></span>
 						<span><b>End(ms): </b><span id="export-end-time"></span></span>
-						<div><b>Text: </b><span id="export-text"></span></div>
 						<div><b>HTML:</b></div><code id="export-html"></code>
 					</div>
 				</fieldset>
@@ -86,6 +90,6 @@
 
 
 	<script src="WebELAN_v004.js" type="text/javascript" charset="utf-8"></script>
-	<script src="converter_v003.js" type="text/javascript" charset="utf-8"></script>
+	<script src="converter_v004b.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
