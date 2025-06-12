@@ -1,6 +1,8 @@
 # excerpter
 HTML excerpt generator from ELAN files as used on [diksioinariu.com](https://diksionariu.com)
 
+Online at [guamlinguistics.com/excerpter/](https://guamlinguistics.com/excerpter/)
+
 Based on other projects:
 - [WebELAN](https://github.com/drdrphd/WebELAN)
 - [transcripter](https://github.com/drdrphd/transcripter)
