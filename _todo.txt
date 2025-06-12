@@ -1,0 +1,2 @@
+Possible timing errors when there are overlapping blocks
+	(See CH_2021-09-27_BT_01_Suruhana,Surunahu_e.eaf -- around 5:40-5:55 (fanena example) ... additional blocks from "pes ayu na un fanestudia" added to the fanena line

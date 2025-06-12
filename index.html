@@ -12,46 +12,80 @@
 	<link rel="icon"             href="../site-icon.png" />
 	<meta name="viewport" content="width=device-width">
 
-	<link rel="stylesheet" type="text/css" href="converter_v002.css">
-	<link rel="stylesheet" type="text/css" href="transcript.css">
+	<link rel="stylesheet" type="text/css" href="converter_v003.css">
+	<link rel="stylesheet" type="text/css" href="transcript_v3.css">
 	
 </head>
 <body>
 	<div id="main">
+	
 		<div id="info">
-			<h1>ELAN .eaf -> HTML transcript</h1>
+			<h1>ELAN .eaf -> HTML excerpt</h1>
 			<h2>Drop ELAN file below</h2>
 		</div>
+		
 		<div id="user-input">
 			<div>
 				<h3>Drag & Drop .eaf<br />
 				or click to upload</h3>
 			</div>
 		</div>
+		
 		<div id="results">
-			<div id="progress-text">
-			</div>
 			<div id="results-grid">
-				<div id="js-output-button">
-					<button id="js-download" disabled>Download</button>
-				</div>
-				<div id="transcript-button">
+				<fieldset id="preview-tiers-box">
+					<legend>Select Top-Level-Tiers to Preview</legend>
+					<div id="preview-tiers"></div>
+				</fieldset>
+				
+				<fieldset id="preview-box">
+					<legend>Preview</legend>
+					<div id="preview">
+					</div>
+				</fieldset>
+				
+				<fieldset id="export-tiers-box">
+					<legend>Select Tiers to Export</legend>
+					<div id="export-tiers"></div>
+				</fieldset>
+				
+				<fieldset id="output-box">
+					<legend>Output</legend>
+					<button id="toggle-links" title="Toggle links">🔗|X</button>
+					<div id="transcript">
+					</div>
+				</fieldset>
+				
+				<fieldset id="export-box">
+					<legend>Export</legend>
+					<div id="export-content">
+						<span><b>Start(ms): </b><span id="export-start-time"></span></span>
+						<span><b>End(ms): </b><span id="export-end-time"></span></span>
+						<div><b>Text: </b><span id="export-text"></span></div>
+						<div><b>HTML:</b></div><code id="export-html"></code>
+					</div>
+				</fieldset>
+				
+				<fieldset id="progress-box">
+					<legend>Progress</legend>
+					<div id="progress-text">
+					</div>
+				</fieldset>
+				
+				<div id="buttons">
+					<button id="start-conversion" disabled>Start</button>
 					<button id="transcript-download" disabled>Download</button>
 					<div id="loading">
 						Loading...
 						<img src="./loading.gif" height="20" width="20">
 					</div>
-				</div>
-				<pre id="js-output">
-				</pre>
-				<pre id="transcript">
-				</pre>
+				</div>			
 			</div>
 		</div>
 	</div>
 
 
-	<script src="WebELAN_v003.js" type="text/javascript" charset="utf-8"></script>
-	<script src="converter_v002.js" type="text/javascript" charset="utf-8"></script>
+	<script src="WebELAN_v004.js" type="text/javascript" charset="utf-8"></script>
+	<script src="converter_v003.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
